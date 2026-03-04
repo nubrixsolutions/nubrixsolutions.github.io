@@ -3,9 +3,9 @@ import Navbar from "../components/Navbar";
 import HeroSlider from "../components/HeroSlider";
 import Services from "../components/Services";
 import About from "../components/About";
-import Careers from "../components/Careers";
-import Contact from "../components/Contact";
-import Footer from "../components/Footer";
+// import Careers from "../components/Careers";
+// import Contact from "../components/Contact";
+// import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -14,9 +14,9 @@ function Home() {
       <HeroSlider />
       <Services />
       <About />
-      <Careers />
+      {/* <Careers />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
