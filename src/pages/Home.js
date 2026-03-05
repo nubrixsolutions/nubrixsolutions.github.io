@@ -3,20 +3,37 @@ import Navbar from "../components/Navbar";
 import HeroSlider from "../components/HeroSlider";
 import Services from "../components/Services";
 import About from "../components/About";
-// import Careers from "../components/Careers";
-// import Contact from "../components/Contact";
-// import Footer from "../components/Footer";
+import TechStack from "../components/TechStack";
+import Stats from "../components/Stats";
+import Portfolio from "../components/Portfolio";
+import Careers from "../components/Careers";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
     <>
       <Navbar />
-      <HeroSlider />
+
+      <div id="home">
+        <HeroSlider />
+      </div>
+
       <Services />
+
       <About />
-      {/* <Careers />
+
+      <TechStack />
+
+      <Stats />
+
+      <Portfolio />
+
+      <Careers />
+
       <Contact />
-      <Footer /> */}
+
+      <Footer />
     </>
   );
 }
